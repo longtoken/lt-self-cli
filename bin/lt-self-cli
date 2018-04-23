@@ -24,7 +24,7 @@ if (argvName) {
 			exec('echo default cli');
 	}
 } else {
-	console.log('请输入文件名，如：lt-self-cli --name folderName');
+	console.log('please use：lt-self-cli --name folderName');
 	process.exit(0);
 }
 
