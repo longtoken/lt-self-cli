@@ -13,9 +13,6 @@ if (argvName) {
 		case 'react':
 			exec(`create-react-app ${folderName}`);
 			break;
-		case 'vue':
-			exec(`vue init webpack ${folderName}`);
-			break;
 		case 'init':
 			// todo
 			exec('echo create self cli');
