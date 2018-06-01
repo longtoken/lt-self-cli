@@ -1,9 +1,9 @@
 {
   "name": "lt-self-cli",
-  "version": "1.0.3",
+  "version": "1.0.15",
   "description": "customize cli",
   "bin": {
-    "lt-self-cli": "./bin/lt-self-cli"
+    "lt-self-cli": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,9 @@
   "author": "longtoken",
   "license": "ISC",
   "dependencies": {
-    "shelljs": "^0.8.1",
-    "yargs": "^11.0.0"
+    "chalk": "^2.4.1",
+    "commander": "^2.9.0",
+    "fs-extra": "^6.0.1",
+    "validate-npm-package-name": "^3.0.0"
   }
 }
