@@ -88,7 +88,6 @@ function copyTemplate(root) {
     console.error(
       `Could not locate supplied template: ${chalk.green(templatePath)}`
     );
-    return;
   }
 }
 
