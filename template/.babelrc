@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "react",
+        [
+            "env",
+            {
+                "targets": {
+                  "browsers": [
+                    "> 1%",
+                    "last 2 versions",
+                    "not ie <= 8"
+                  ]
+                },
+                "useBuiltIns": true
+            }
+        ],
+        "es2015",
+        "stage-0"
+    ],
+    "plugins": [
+		"transform-decorators-legacy",
+        "transform-object-rest-spread",
+        "react-html-attrs",
+        "syntax-dynamic-import",
+        ["import", { "style": "css", "libraryName": "antd-mobile" }],
+        ["transform-runtime"]
+    ]
+}
